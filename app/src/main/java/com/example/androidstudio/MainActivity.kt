@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         val button2 = findViewById<Button>(R.id.button_2)
         button2.setOnClickListener{
             //ここに処理を追加
-            val intent = Intent(this@MainActivity, ParcelableActivity::class.java)
+            val intent = Intent(this@MainActivity, SubActivity::class.java)
             intent.putExtra("test", "Hello World!")
             startActivity(intent)
             Log.d("LifeCycle", "setOnClickListener")

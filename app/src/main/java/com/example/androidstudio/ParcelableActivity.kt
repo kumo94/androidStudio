@@ -23,7 +23,7 @@ class ParcelableActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sub)
+        setContentView(R.layout.activity_parcel)
         val textView = findViewById<TextView>(R.id.text_1)
         var receivedName: String? = null
         var receivedAge = 0
